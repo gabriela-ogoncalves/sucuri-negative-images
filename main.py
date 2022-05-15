@@ -18,7 +18,7 @@ def list_imgs(rootdir):
         for f in files:
             file_names.append(current + '/' + f)
 
-    file_names.sort()   
+    file_names.sort()
     return file_names
 
 def get_negative(args):
@@ -53,12 +53,12 @@ def print_name(args):
 def sucuri(n_procs):
     """ Aplica comandos da lib Sucuri """
     nprocs = n_procs
-    imagePath = list_imgs(imgs_folder)
+    image_path = list_imgs(imgs_folder)
     
     graph = DFGraph()
     sched = Scheduler(graph, nprocs, mpi_enabled = False)
     
-    feed_files = Source(imagePath)
+    feed_files = Source(image_path)
     
     convert_file = FilterTagged(get_negative, 1)  
     

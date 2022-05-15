@@ -51,10 +51,10 @@ Segue abaixo um exemplo do resultado obtido.
 <div style="display:flex;  justify-content:center; text-align:center">
     <div>
         <strong>Antes</strong><br>
-        <img src="./results/original_image.jpeg" width="350" alt="Antes">
+        <img src="./docs/original_image.jpeg" width="350" alt="Antes">
     </div>
     <div>
         <strong>Depois</strong><br>
-        <img src="./results/negative_image.png" width="350" alt="Depois">
+        <img src="./docs/negative_image.png" width="350" alt="Depois">
     </div>
 </div>

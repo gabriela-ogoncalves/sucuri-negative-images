@@ -48,7 +48,7 @@ Observe que a pasta [negative_images](./negative_imgs/) está inicialmente vazia
 
 Segue abaixo um exemplo do resultado obtido.
 
-<div style="display:flex; align:center; text-align:center">
+<div style="display:flex;  justify-content:center; text-align:center">
     <div>
         <strong>Antes</strong><br>
         <img src="./results/original_image.jpeg" width="350" alt="Antes">

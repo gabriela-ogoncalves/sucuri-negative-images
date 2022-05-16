@@ -37,7 +37,7 @@ Para rodar o projeto, execute o comando abaixo.
 python3 main.py 1
 ```
 
-Observe que a pasta [negative_images](./negative_imgs/) está inicialmente vazia, pois o processo para torná-las negativas ainda não foi iniciado. Após rodar o comando, as imagens negativas serão inseridas automaticamente nessa pasta. 
+Observe que a pasta [negative_imgs](./negative_imgs/) está inicialmente vazia, pois o processo para torná-las negativas ainda não foi iniciado. Após rodar o comando, as imagens negativas serão inseridas automaticamente nessa pasta. 
 
 > O argumento passado é o número de workers. No caso do exemplo, temos apenas 1.
 
